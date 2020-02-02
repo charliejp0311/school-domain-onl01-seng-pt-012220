@@ -26,5 +26,6 @@ class School
     @roster.collect do |g, students|
       students.sort!
     end
+    @roster.sort.to_h 
   end
 end 
