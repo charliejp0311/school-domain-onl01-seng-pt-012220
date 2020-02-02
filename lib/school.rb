@@ -24,7 +24,7 @@ class School
   def sort
     i = 0 
     @roster.collect do |g, students|
-      binding.pry
+      students.sort!
     end
   end
 end 
